@@ -1,3 +1,5 @@
 .vscode
 register.pyc
 test_register.pyc
+Pipfile
+Pipfile.lock
