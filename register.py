@@ -13,12 +13,12 @@ class User:
         self.user = {}
 
     def valid_username(self):
-            """check that username is not < 4 charaters or equal to name.
-            Returns 'True' for check, and 'False' otherwise."""
+        """check that username is not < 4 charaters or equal to name.
+        Returns 'True' for check, and 'False' otherwise."""
 
-            if self.username != self.name and len(self.username) >= 4:
-                return True
-            return False
+        if self.username != self.name and len(self.username) >= 4:
+            return True
+        return False
 
     def valid_password(self):
         """Check that a password is longer than 4 characters,
