@@ -10,4 +10,13 @@ exclude_lines =
     if __name__ == .__main__.:
 ignore_errors = True
 omit =
-tests/*
+    */python?.?/*
+    */site-packages/nose/*
+    */__pycache__/*
+    *.pyc
+    */venv/*
+    */home/travis/virtualenv/*
+    bin/
+    lib/
+    share/
+    include/
