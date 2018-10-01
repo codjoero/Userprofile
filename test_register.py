@@ -6,6 +6,7 @@ class TestReg(unittest.TestCase):
     def setUp(self):
         self.user1 = User(
             'Donald Duck', 'Duckie', 'The.zen9', 'donduck@mail.com', 15)
+        self.user1.register_user()
 
     def tearDown(self):
         return super(TestReg, self).tearDown()
@@ -34,13 +35,11 @@ class TestReg(unittest.TestCase):
 
     def test_login_user(self):
         """ Test user can login successfully """
-        self.user1.register_user()
         self.assertEqual(self.user1.login_user('Duckie', 'The.zen9'),
             'You are logged in now.')
 
     def test_get_all_info(self):
         """Test user can get all their info on the App """
-        self.user1.register_user()
         self.assertEqual(self.user1.get_all_info('Duckie', 'The.zen9'), 
 '''Name: Donald Duck,\
  Username: Duckie,\
