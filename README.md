@@ -1,7 +1,7 @@
 # Userprofile
 
 
-[![Build Status]] badges here
+[![Build Status](https://travis-ci.org/codjoero/Userprofile.svg?branch=user-register-160784779)](https://travis-ci.org/codjoero/Userprofile)
 
 Userprofile A simple user registration console App with TDD best practices implementation.
 
