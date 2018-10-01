@@ -2,6 +2,7 @@
 
 
 [![Build Status](https://travis-ci.org/codjoero/Userprofile.svg?branch=user-register-160784779)](https://travis-ci.org/codjoero/Userprofile)
+[![Coverage Status](https://coveralls.io/repos/github/codjoero/Userprofile/badge.svg?branch=user-register-160784779)](https://coveralls.io/github/codjoero/Userprofile?branch=user-register-160784779)
 
 Userprofile A simple user registration console App with TDD best practices implementation.
 
