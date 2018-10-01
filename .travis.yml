@@ -8,7 +8,7 @@ env:
 install: 
   - pip install -r requirements.txt
 script:
-  - py.test tests/test.py --cov=codecov
+  - pytest tests/ --cov=package --cov-report term-missing
 after_success:
   - coveralls
   - codecov
