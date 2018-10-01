@@ -11,3 +11,4 @@ script:
   - nosetests --with-coverage --cover-tests
 after_success:
   - coveralls
+  - codecov
