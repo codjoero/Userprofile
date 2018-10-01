@@ -8,7 +8,7 @@ env:
 install: 
   - pip install -r requirements.txt
 script:
-  - nosetests --with-coverage --cover-tests
+  - py.test tests/test.py --cov=codecov
 after_success:
   - coveralls
   - codecov
